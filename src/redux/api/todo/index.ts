@@ -1,9 +1,8 @@
 import { api as index } from "..";
-import { TODO } from "./types";
 
 const ENDPOIND = "/aef0863d7bca8200309c54aff8f4eebe/todo";
 
-export const api = index.injectEndpoints({
+ const api = index.injectEndpoints({
   endpoints: (builder) => ({
     getTodos: builder.query<TODO.GetTodosResponse, TODO.GetTodosRequest>({
       query: () => ({

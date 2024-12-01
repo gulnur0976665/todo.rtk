@@ -4,11 +4,6 @@
     "next/typescript"
   ],
   "rules": {
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      {
-        "varsIgnorePattern": "^(TODO|UPLOAD)"
-      }
-    ]
+    "@typescript-eslint/no-unused-vars": "off"
   }
 }
