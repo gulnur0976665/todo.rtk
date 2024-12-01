@@ -7,7 +7,7 @@
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
-        "varsIgnorePattern": "TODO|UPLOAD"
+        "varsIgnorePattern": "^(TODO|UPLOAD)"
       }
     ]
   }
